@@ -9,4 +9,8 @@
     <StartupObject>TrackerUI.Program</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TrackerLibrary\TrackerLibrary.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -18,3 +18,7 @@ C:\tfs\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.CreatePriz
 C:\tfs\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.CreateTeamForm.resources
 C:\tfs\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.CreateTournamentForm.resources
 C:\tfs\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.TournamentDashboardForm.resources
+C:\tfs\TournamentTracker\TrackerUI\bin\Debug\net6.0-windows\TrackerLibrary.dll
+C:\tfs\TournamentTracker\TrackerUI\bin\Debug\net6.0-windows\TrackerLibrary.pdb
+C:\tfs\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.csproj.AssemblyReference.cache
+C:\tfs\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.csproj.CopyComplete
