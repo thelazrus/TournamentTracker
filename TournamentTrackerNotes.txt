@@ -1,0 +1,71 @@
+Tournament Tracker
+
+Get requirements
+1. Track games played and the outcomne (who won)
+2. Multiple competitors
+3. Who plays in what order
+4. Schedule games
+5. Single loss eliminates
+6. Last player is winner
+
+Questions
+1. How many players? Variable? - Variable
+2. How to handle not enough players - Use byes randomly
+3. Order random or by input order? - Random
+4. Schedule or play whenever? - Whenever
+5. If scheduled, how long, when to schedule? - Not scheduled
+6. If whenever, can games be played out of order? - No, each round should complete before next round
+7. Store score? Or just who won? - Score
+8. Front end? Form, site, app? - Form for now, then website or app
+9. Where will data be stored? - SQL with option for local txt files
+10. Entry fees, prizes, payouts? - Entry fee optional, Prizes optional.
+11. What type of reporting? - 
+12. Who can fill in results?
+13. Varying levels of access?
+14. Contact users for upcoming games?
+15. Single player or team?
+
+Big Picture Design
+Structure: WinForm + Class Library
+Data: SQL and/or Text File
+Users: One at a time on one application
+
+Key Concepts:
+Email
+SQL
+Custom Events
+Error Handling
+Interfaces
+Random Ordering
+Texting?
+
+Mapping the Data:
+Team 
+	TeamMembers (List<Person>)
+	TeamName (string)
+Person
+	FirstName (string)
+	LastName (string)
+	EmailAddress (string)
+	CellphoneNumber (string)
+Tournament
+	TournamentName (string)
+	EntryFee (decimal)
+	EnteredTeams (List<Team>)
+	Prizes (List<Prize>)
+	Rounds (List<List<Matchup>>)
+Prize
+	PlaceNumber (int)
+	PlaceName (string)
+	PrizeAmount (decimal)
+	PrizePercentage (double)
+Matchup
+	Entries (List<MatchupEntry>)
+	Winner (Team)
+	MatchupRound (int)
+MatchupEntry
+	TeamCompeting (Team)
+	Score (double)
+	ParentMatchup (Matchup)
+
+
